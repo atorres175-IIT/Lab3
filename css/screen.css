@@ -203,6 +203,48 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
-
-
+@media only screen and (max-width: 600px){
+body {
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+form {
+  max-width: 100%;
+}
+input[type=email] {
+  box-sizing: border-box;
+  height: 40px;
+  max-width: 90%;
+  border-radius: 2px;
+  border-width: 5px;
+  border-color: #d3d3d3;
+}
+input[type=checkbox]
+{
+  width: 25px;
+  height: 25px;
+}
+label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+h1 {
+  font-size: 30px;
+  padding-left: 10px;
+  padding-bottom: 25px;
+}
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+ol {
+  padding-left: 20px;
+}
+li {
+  padding-bottom: 25px;
+}
+}
 /* ===== STATE STYLES ======= */
